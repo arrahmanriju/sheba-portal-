@@ -1,0 +1,71 @@
+.video__part {
+    border: solid 1px $color-grey-dark-3;
+    filter: drop-shadow(0px 0px 3px #c7c6c6);
+    margin-bottom: 20px;
+
+    & .ludo__video {
+        position: relative;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: linear-gradient(0deg, #065524 12.4%, rgba(241, 242, 246, 0.29) 126.29%);
+        }
+
+        & .play__icon {
+            position: absolute;
+            z-index: 999;
+            font-size: 64px;
+            top: 40%;
+            left: 50%;
+            transform: translateY(-50%);
+            transform: translateX(-50%);
+
+            & a {
+                text-decoration: none;
+
+                & i {
+                    color: $color-white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    & .video__text {
+        padding: 20px 18px;
+        display: flex;
+        justify-content: space-between;
+        background-color: $color-white;
+
+        & span {
+            font-family: 'Sansita', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: $color-primary;
+        }
+
+        & a {
+            color: $color-white;
+            background-color: $color-grey-dark;
+            padding: 10px 20px;
+            font-family: 'Sansita', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 5px;
+            transition: all linear 0.4s;
+
+            &:hover {
+                background-color: $color-primary;
+            }
+        }
+    }
+}

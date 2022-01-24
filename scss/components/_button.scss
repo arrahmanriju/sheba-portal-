@@ -1,0 +1,39 @@
+.button {
+    & .simple__button {
+        text-decoration: none;
+        color: $color-white;
+        background-color: $color-primary;
+        padding: 18px 38px;
+        border-radius: 5px;
+        font-family: 'Sansita', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        transition: all linear 0.4s;
+
+        &:hover {
+            background-color: $color-grey-dark;
+        }
+    }
+}
+
+
+.button__two {
+    text-align: center;
+    transition: all linear 0.4s;
+    margin-bottom: 60px;
+
+    & a {
+        background-color: $color-primary-light;
+        text-decoration: none;
+        color: $color-white;
+        padding: 15px 132px;
+        font-family: 'Sansita', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 5px;
+    }
+
+    :hover {
+        background-color: $color-grey-dark-4;
+    }
+}

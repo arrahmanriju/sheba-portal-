@@ -1,0 +1,40 @@
+.common__head {
+    margin-bottom: 60px;
+    & h2 {
+        font-family: 'Sansita', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: $color-primary-light;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: '';
+            left: 0px;
+            bottom: -6px;
+            width: 215px;
+            height: 4px;
+            background: $color-primary-light;
+            border-radius: 6px;
+        }
+
+        &::before {
+            position: absolute;
+            content: '';
+            right: 367px;
+            bottom: -6px;
+            width: 45px;
+            height: 4px;
+            background: $color-primary-light;
+            border-radius: 6px;
+        }
+    }
+
+    & p {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: $color-grey-dark-5;
+        line-height: 26px;
+    }
+}

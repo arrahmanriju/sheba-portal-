@@ -35,8 +35,15 @@
                 font-family: 'Sansita', sans-serif;
                 font-size: 20px;
                 font-weight: 700;
-                box-shadow: 3px 5px 9px rgb(221, 220, 220);
+                box-shadow: -4px 0px 10px rgb(221, 220, 220);
                 margin-bottom: 10px;
+                transition: all linear 0.4s;
+                cursor: pointer;
+
+                &:hover{
+                    color: $color-primary;
+                    box-shadow: 4px 0px 10px rgb(221, 220, 220);
+                }
 
                 & i {
                     margin-right: 5px;

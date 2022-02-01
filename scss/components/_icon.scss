@@ -1,9 +1,9 @@
 .social__icon {
     & .user__icon{
-        line-height: 80px;
+        line-height: 55px;
         & ul{display: flex;
             li{
-                color: $color-grey-dark;
+                color: $color-primary;
                 & i {
                     font-size: 24px;
                     cursor: pointer;
@@ -12,7 +12,7 @@
                
             }
             & .icon--modifier{
-                color: $color-primary;
+                color: $color-grey-dark;
             }
         }
     }

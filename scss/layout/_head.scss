@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600&family=Oxanium:wght@300&family=Sansita:wght@400;700&display=swap');
 
 #head__part {
-    background-color: $color-black;
+    background-color: $color-grey-dark-2;
     padding: 18px 0;
-    display: flex;
-    justify-content: space-between;
+    
 
     & .logo {
         width: 100%;
     }
 
     & .button {
-        line-height: 80px;
+        line-height: 47px;
     }
 
     & .head__text {
@@ -23,14 +22,14 @@
             position: relative;
             cursor: pointer;
             color: $color-primary;
-            line-height: 80px;
+            line-height: 50px;
         }
 
         & p::after {
             position: absolute;
             content: '';
             left: -16px;
-            top: 22px;
+            top: 10px;
             width: 4px;
             height: 35px;
             background: $color-grey-dark;

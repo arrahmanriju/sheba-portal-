@@ -1,4 +1,4 @@
-@media(min-width: 1400px) and {}
+@media(min-width: 1400px) {}
 
 @media(min-width: 1200px) and (max-width:1399.98px) {}
 
@@ -12,31 +12,55 @@
 
     /* navbar part  */
     #head__part {
-        padding: 180px 0;    
-        
+        padding: 0px 25px;
+        display: block;
+
+
     }
-    .logo {
-        width: 20%;
+
+    #head__part .logo {
+        width: 30%;
+        display: block;
+
     }
-    .button {
+
+    #head__part .button {
+        display: none;
+    }
+
+    #head__part .head__text p {
+        font-size: 20px;
         line-height: 80px;
+        display: block;
+
     }
-    p::after {
-        position: absolute;
-        content: '';
+
+    #head__part .head__text p::after {
         left: -16px;
         top: 22px;
         width: 4px;
-        height: 35px;   
+        height: 35px;
+        border-radius: 5px;
+        display: block;
     }
-    .head__text p {
-        color: white;
-        font-family: 'Sansita', sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        position: relative;
-        cursor: pointer;
-        line-height: 80px;
-    }
-}
 
+    /* search part 
+==================================================== */
+    #search {
+        padding: 20px 0;
+    }
+
+    #search .search__main {
+        height: 40px;
+    }
+
+    #search .search__main input {
+        width: 390px;
+    }
+
+    /* adventure part responsive
+================================================== */
+
+
+
+}

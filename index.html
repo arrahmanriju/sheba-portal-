@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="vendors/venobox/venobox.min.css">
     <!-- css file -->
     <link rel="stylesheet" href="scss/style.css">
+    <!-- responsive part -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -28,7 +30,69 @@
                 <div class="col-lg-5 px-0"> </div>
                 <div class="col-lg-2 px-0">
                     <div class="button">
-                        <a class="simple__button" href="#">subscribe</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <a class="simple__button" id="show__popup" href="#">subscribe</a>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade pop__up" id="exampleModal" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-lg-7">
+                                                <div class="text">
+                                                    <h2><span>Do Subscribe &</span>
+                                                        Play Unlimited Games</h2>
+                                                    <h4>7 Days Free Trial</h4>
+                                                    <div class="list">
+                                                        <ul>
+                                                            <li><i class="fas fa-circle"></i>Get access to hundreds of
+                                                                amazing</li>
+                                                            <li><i class="fas fa-circle"></i>Verified and Ad-Free</li>
+                                                            <li><i class="fas fa-circle"></i>New Games every week</li>
+                                                            <li><i class="fas fa-circle"></i>Select any one package :
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="form">
+                                                    <input type="radio" name="subscription"> <label for="#">5 TK/Week.
+                                                        Cancel anytime.</label>
+                                                    <br>
+                                                    <input type="radio" name="subscription"> <label for="#">15 TK/Week.
+                                                        Cancel anytime.</label>
+                                                    <br>
+                                                    <input type="radio" name="subscription"> <label for="#">35 TK/Week.
+                                                        Cancel anytime.</label>
+                                                </div>
+
+                                                <div class="last__part">
+                                                    <div class="img">
+                                                        <img src="images/flag.png" alt="flag" class="w-100% img-fluid">
+                                                        <!-- <p>+088</p> -->
+                                                    </div>
+                                                    <input type="text" placeholder="mobile-number">
+                                                    <div class="button">
+                                                        <a class="simple__button" href="#">subscribe</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="pop-img">
+                                                    <img src="images/popUp.png" alt="popup img" class="img-fluid w-100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-1 social__icon">
@@ -36,7 +100,6 @@
                         <ul>
                             <li class="icon--modifier"><i class="fas fa-bell"></i></li>
                             <li><i class="far fa-user-circle"></i></li>
-
                         </ul>
                     </div>
                 </div>
@@ -788,6 +851,11 @@
         </div>
     </section>
     <!--copy__right__part__end
+    ============================================== -->
+    <!--pop__up__part__end
+    ============================================== -->
+
+    <!--pop__up__part__end
     ============================================== -->
     <script src="vendors/jquary/jquery-1.12.4.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>

@@ -97,9 +97,8 @@
             }
     
             .button {
-                line-height: 60px;
     
-                & .simple__button {
+                & .pop__sub {
                     text-decoration: none;
                     color: $color-white;
                     background-color: $color-primary;
@@ -109,6 +108,7 @@
                     font-weight: 700;
                     font-size: 20px;
                     transition: all linear 0.4s;
+                    line-height: 75px;
     
     
                     &:hover {

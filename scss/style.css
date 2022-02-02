@@ -728,11 +728,7 @@ a {
   margin-right: 15px;
 }
 
-.pop__up .modal-body .last__part .button {
-  line-height: 60px;
-}
-
-.pop__up .modal-body .last__part .button .simple__button {
+.pop__up .modal-body .last__part .button .pop__sub {
   text-decoration: none;
   color: #fff;
   background-color: #52A30C;
@@ -743,9 +739,10 @@ a {
   font-size: 20px;
   -webkit-transition: all linear 0.4s;
   transition: all linear 0.4s;
+  line-height: 75px;
 }
 
-.pop__up .modal-body .last__part .button .simple__button:hover {
+.pop__up .modal-body .last__part .button .pop__sub:hover {
   background-color: #DF1117;
 }
 
